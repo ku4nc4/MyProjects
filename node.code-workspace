@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "weather-app"
+		},
+		{
+			"path": "tictactoe"
+		},
+		{
+			"path": "money-tracker"
+		},
+		{
+			"path": "calculator"
+		},
+		{
+			"path": "mycalc"
+		}
+	],
+	"settings": {}
+}

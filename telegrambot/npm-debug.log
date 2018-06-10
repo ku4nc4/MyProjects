@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\laragon\\bin\\nodejs\\node-v6.11.0-x64\\node.exe',
+1 verbose cli   'C:\\laragon\\bin\\nodejs\\node-v6.11.0-x64\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express',
+1 verbose cli   'axios',
+1 verbose cli   'body-parser' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose stack SyntaxError: Error parsing C:\laragon\bin\nodejs\node-v6.11.0-x64\node_modules\npm\node_modules\npm-registry-client\node_modules\concat-stream\node_modules\readable-stream\node_modules\core-util-is\package.json: Unexpected token � in JSON at position 0
+4 verbose stack     at Object.parse (native)
+4 verbose stack     at readPackage (module.js:92:52)
+4 verbose stack     at tryPackage (module.js:102:13)
+4 verbose stack     at Function.Module._findPath (module.js:186:20)
+4 verbose stack     at Function.Module._resolveFilename (module.js:467:25)
+4 verbose stack     at Function.Module._load (module.js:417:25)
+4 verbose stack     at Module.require (module.js:497:17)
+4 verbose stack     at require (internal/module.js:20:19)
+4 verbose stack     at Object.<anonymous> (C:\laragon\bin\nodejs\node-v6.11.0-x64\node_modules\npm\node_modules\npm-registry-client\node_modules\concat-stream\node_modules\readable-stream\lib\_stream_readable.js:41:12)
+4 verbose stack     at Module._compile (module.js:570:32)
+5 verbose cwd E:\laragon\www\telegrambot
+6 error Windows_NT 10.0.16299
+7 error argv "C:\\laragon\\bin\\nodejs\\node-v6.11.0-x64\\node.exe" "C:\\laragon\\bin\\nodejs\\node-v6.11.0-x64\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "express" "axios" "body-parser"
+8 error node v6.11.0
+9 error npm  v3.10.10
+10 error path C:\laragon\bin\nodejs\node-v6.11.0-x64\node_modules\npm\node_modules\npm-registry-client\node_modules\concat-stream\node_modules\readable-stream\node_modules\core-util-is\package.json
+11 error Error parsing C:\laragon\bin\nodejs\node-v6.11.0-x64\node_modules\npm\node_modules\npm-registry-client\node_modules\concat-stream\node_modules\readable-stream\node_modules\core-util-is\package.json: Unexpected token � in JSON at position 0
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
