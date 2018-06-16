@@ -1,0 +1,71 @@
+/* extra for 5 columns */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* extra for 5 columns ends */
+
+.card-header {
+  background-color: rgb(243, 36, 36);
+}
+
+.navbarlogo {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+    .dunnorow {
+        height: 100px;
+    }
+}
+
+
+.dunnorowimg{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.taglinerow{
+    width: 100%;
+    text-align: center;
+    background: #ffd622;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+.contentimg{
+    width: 100%;
+}
